@@ -1,0 +1,16 @@
+{
+  "variant": "triton_rmsnorm",
+  "desc": "SDPA + custom Triton RMSNorm kernel patched in",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "gpu": "Tesla T4",
+  "prompt_len": 256,
+  "new_tokens": 128,
+  "runs": 10,
+  "ttft_ms_p50": 40.48194799997873,
+  "ttft_ms_p99": 52.26333699999941,
+  "itl_ms_p50": 33.176612000033856,
+  "itl_ms_p99": 48.53315900004418,
+  "decode_tok_s": 29.16830069630764,
+  "e2e_ms_p50": 4362.746697999966,
+  "peak_mem_mb": 968.8662109375
+}

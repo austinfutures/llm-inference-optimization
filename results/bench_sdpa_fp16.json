@@ -1,0 +1,16 @@
+{
+  "variant": "sdpa_fp16",
+  "desc": "PyTorch SDPA fused attention",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "gpu": "Tesla T4",
+  "prompt_len": 256,
+  "new_tokens": 128,
+  "runs": 10,
+  "ttft_ms_p50": 42.67353500000581,
+  "ttft_ms_p99": 50.37878900003534,
+  "itl_ms_p50": 34.91660999998203,
+  "itl_ms_p99": 159.10455600004525,
+  "decode_tok_s": 23.774007097384377,
+  "e2e_ms_p50": 4679.114322000032,
+  "peak_mem_mb": 968.8662109375
+}

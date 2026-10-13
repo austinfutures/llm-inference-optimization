@@ -1,0 +1,16 @@
+{
+  "variant": "eager_fp16",
+  "desc": "PyTorch eager, naive attention (baseline)",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "gpu": "Tesla T4",
+  "prompt_len": 256,
+  "new_tokens": 128,
+  "runs": 10,
+  "ttft_ms_p50": 39.68597699997645,
+  "ttft_ms_p99": 42.08012599997346,
+  "itl_ms_p50": 34.089573000017026,
+  "itl_ms_p99": 52.15950199999497,
+  "decode_tok_s": 28.421104957224205,
+  "e2e_ms_p50": 4562.724499000013,
+  "peak_mem_mb": 965.9873046875
+}

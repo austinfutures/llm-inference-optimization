@@ -1,0 +1,16 @@
+{
+  "variant": "compile",
+  "desc": "SDPA + static KV cache + torch.compile (TorchInductor)",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "gpu": "Tesla T4",
+  "prompt_len": 256,
+  "new_tokens": 128,
+  "runs": 10,
+  "ttft_ms_p50": 46.722920999968665,
+  "ttft_ms_p99": 52.72917899992535,
+  "itl_ms_p50": 8.160183000086363,
+  "itl_ms_p99": 9.425080000028174,
+  "decode_tok_s": 120.09635212314898,
+  "e2e_ms_p50": 1103.2673009999598,
+  "peak_mem_mb": 970.37890625
+}

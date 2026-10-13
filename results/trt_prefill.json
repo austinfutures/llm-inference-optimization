@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "gpu": "Tesla T4",
+  "seq_len": 256,
+  "trt_version": "11.4.0.106",
+  "runs": 50,
+  "pytorch_ms_p50": 37.781150817871094,
+  "pytorch_ms_p99": 60.083839416503906,
+  "compile_ms_p50": 15.699967861175537,
+  "compile_ms_p99": 29.376319885253906,
+  "onnx_exporter": "dynamo (torch.export) exporter",
+  "build_s": 21.074647426605225,
+  "network_layers": 4682,
+  "strongly_typed": true,
+  "trt_ms_p50": 13.55884838104248,
+  "trt_ms_p99": 14.081952095031738,
+  "top1_match": true,
+  "top5_overlap": 5,
+  "max_abs_logit_diff": 0.185546875,
+  "cosine_sim": 0.9998780488967896,
+  "speedup_vs_pytorch": 2.7864572090573274,
+  "speedup_vs_compile": 1.1579130778633602
+}

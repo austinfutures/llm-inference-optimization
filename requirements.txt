@@ -1,0 +1,9 @@
+# torch and triton come preinstalled on Google Colab GPU runtimes
+transformers>=4.45
+accelerate
+bitsandbytes
+datasets
+matplotlib
+onnx
+onnxscript
+# TensorRT step only: pip install tensorrt

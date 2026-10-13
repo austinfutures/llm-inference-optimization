@@ -1,0 +1,5 @@
+{
+  "variant": "sdpa_fp16",
+  "perplexity": 15.980163091709166,
+  "tokens": 40000
+}

@@ -1,0 +1,16 @@
+{
+  "variant": "nf4",
+  "desc": "4-bit NF4 weight quantization (bitsandbytes)",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "gpu": "Tesla T4",
+  "prompt_len": 256,
+  "new_tokens": 128,
+  "runs": 10,
+  "ttft_ms_p50": 62.33439099992211,
+  "ttft_ms_p99": 68.62823699998444,
+  "itl_ms_p50": 45.952295000006416,
+  "itl_ms_p99": 66.51112800000192,
+  "decode_tok_s": 21.105207161620328,
+  "e2e_ms_p50": 6079.0808149999975,
+  "peak_mem_mb": 479.0537109375
+}

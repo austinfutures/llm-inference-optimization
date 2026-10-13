@@ -1,0 +1,16 @@
+{
+  "variant": "int8",
+  "desc": "INT8 weight quantization (bitsandbytes LLM.int8)",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "gpu": "Tesla T4",
+  "prompt_len": 256,
+  "new_tokens": 128,
+  "runs": 10,
+  "ttft_ms_p50": 164.79459399999996,
+  "ttft_ms_p99": 193.4032640000396,
+  "itl_ms_p50": 135.01360599991585,
+  "itl_ms_p99": 177.7578100000028,
+  "decode_tok_s": 7.264007076680894,
+  "e2e_ms_p50": 17741.038120999976,
+  "peak_mem_mb": 628.13525390625
+}
